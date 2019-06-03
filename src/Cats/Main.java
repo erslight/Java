@@ -11,7 +11,7 @@ public class Main {
         ArrayList<String> cat = new ArrayList<String>();
         for(int i = 0; i<40; i++) {
             cat.add("Kot"+(i+1));
-            System.out.println(cat.get(i));
+            System.out.println(cat.get(i));//hello
         }
     }
 }
