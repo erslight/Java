@@ -8,10 +8,10 @@ public class Cat {
     private Colorcat color;
     private String catblabla;
 
-    /*public Cat(){                      //конструктор без параметров
+    public Cat(){//конструктор без параметров
         this.name = "Kot";
         this.age = 3;
-    }*/
+    }
 
     /*public Cat(String name){    //конструктор с одним параметром
         this.name = name;
