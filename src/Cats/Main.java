@@ -3,6 +3,12 @@ package Cats;
 import java.awt.*;
 import java.util.ArrayList;
 
+/**
+ * Задание: пройтись по всей коллекции котов. для котов с четной итерацией присвоить любой цвет
+ * для нечетной итерации - другой цвет
+ * придумать еще одно условие. если оно выполняется, то присваивать РАНДОМНЫЙ цвет из енума {@link Colorcat}
+ *
+ */
 public class Main {
     public static void main(String[] args){
 
