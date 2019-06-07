@@ -15,7 +15,7 @@ public class Main {
         }
         for(int i = 0; i<40; i++) {
             if(i%2==0){
-                
+
             }
             cat.add("Kot"+(i+1));
             System.out.println(cat.get(i));//hello
