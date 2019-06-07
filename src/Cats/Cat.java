@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Cat {
     private String name;
     private int age;
+    private Colorcat color;
 
     public Cat(){
         this.name = "Kot";
@@ -28,6 +29,16 @@ public class Cat {
 
     public String getName() {
         return name;
+    }
+
+
+
+    public Colorcat setColor(Colorcat color){
+        this.color=color;
+    }
+
+    public Colorcat getColor() {
+        return color;
     }
 
     @Override
