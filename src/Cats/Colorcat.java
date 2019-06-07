@@ -5,5 +5,9 @@ public enum Colorcat {
     WHITE,
     GREEN,
     ORANGE,
-    BRAUN
+    BRAUN;
+
+    public static Colorcat getRandom() {
+        return values()[(int) (Math.random() * values().length)];
+    }
 }

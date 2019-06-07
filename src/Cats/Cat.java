@@ -6,8 +6,9 @@ public class Cat {
     private String name;
     private int age;
     private Colorcat color;
+    private String catblabla;
 
-    public Cat(){                      //конструктор без параметров
+    public Cat(){//конструктор без параметров
         this.name = "Kot";
         this.age = 3;
     }
@@ -25,6 +26,14 @@ public class Cat {
         this.age = age;
     }*/
 
+    public String getCatblabla() {
+        return catblabla;
+    }
+
+    public void setCatblabla(String catblabla) {
+        this.catblabla = catblabla;
+    }
+
     public int getAge() {
         return age;
     }
@@ -37,8 +46,7 @@ public class Cat {
         return color;
     }
 
-
-    public Colorcat setColor(Colorcat color){
+    public void setColor(Colorcat color){
         this.color=color;
     }
 
