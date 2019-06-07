@@ -11,14 +11,14 @@ public class Main {
         ArrayList<String> cat = new ArrayList<String>();
         for(int i = 0; i<40; i++) {
             cat.add("Kot"+(i+1));
-            System.out.println(cat.get(i));//hello
+            System.out.println(cat.get(i));
         }
         for(int i = 0; i<40; i++) {
             if(i%2==0){
-
+                cat.get(i).setColor = Colorcat.BLACK;
             }
             cat.add("Kot"+(i+1));
-            System.out.println(cat.get(i));//hello
+            System.out.println(cat.get(i));
         }
     }
 }

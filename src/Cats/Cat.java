@@ -7,22 +7,24 @@ public class Cat {
     private int age;
     private Colorcat color;
 
-    public Cat(){
+    public Cat(){                      //конструктор без параметров
         this.name = "Kot";
         this.age = 3;
     }
-    public Cat(String name){
+
+    /*public Cat(String name){    //конструктор с одним параметром
         this.name = name;
         this.age = 3;
     }
-    public Cat(int age){
+    public Cat(int age){           //конструктор с одним параметром
         this.name = "Kot";
         this.age = age;
     }
-    public Cat(String name, int age){
+    public Cat(String name, int age){     //конструктор с двумя параметрами
         this.name = name;
         this.age = age;
-    }
+    }*/
+
     public int getAge() {
         return age;
     }
@@ -31,14 +33,13 @@ public class Cat {
         return name;
     }
 
+    public Colorcat getColor() {
+        return color;
+    }
 
 
     public Colorcat setColor(Colorcat color){
         this.color=color;
-    }
-
-    public Colorcat getColor() {
-        return color;
     }
 
     @Override
