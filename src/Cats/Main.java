@@ -15,9 +15,9 @@ public class Main {
             cat.add("Kot"+(i+1));
             System.out.println(cat.get(i));
         }
-        for(int i = 0; i<40; i++) {
+        for(int i = 0; i<cat.size(); i++) {
             if(i%2==0){
-                this.cat.get(i).setColor = Colorcat.BLACK;
+                cat.get(i).setColor = Colorcat.BLACK;
             }
         }
     }
